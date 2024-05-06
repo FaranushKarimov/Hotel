@@ -1,0 +1,146 @@
+.free-ui-kit,
+.hotel-website {
+  margin: 0;
+}
+.hotel-website-free-container {
+  margin: 0;
+  position: absolute;
+  top: 496px;
+  left: 210px;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.hotel {
+  color: #fcd043;
+}
+.bank-hotel {
+  margin: 0;
+  position: absolute;
+  top: 290px;
+  left: 210px;
+  font-size: 120px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.frame-child {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 1920px;
+  height: 1248px;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: -551px;
+  left: -333px;
+  width: 3607.8px;
+  height: 3310.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-inner {
+  top: -504px;
+  left: 929px;
+  width: 156.6px;
+  height: 1757.1px;
+  object-fit: cover;
+  z-index: 2;
+}
+.main-page-desktop-1921-1,
+.room-page-desktop-1920-1 {
+  position: absolute;
+  top: -1051px;
+  left: 1142px;
+  width: 638px;
+  height: 1582.8px;
+  object-fit: cover;
+  z-index: 2;
+}
+.main-page-desktop-1921-1 {
+  top: 562px;
+  left: 1141.1px;
+  width: 638.9px;
+  height: 1615.5px;
+}
+.content-block {
+  position: absolute;
+  top: 681px;
+  left: 217px;
+  border: 3px solid var(--white);
+  box-sizing: border-box;
+  width: 477px;
+  height: 5px;
+  z-index: 2;
+}
+.group-icon {
+  position: absolute;
+  top: 40px;
+  left: 210px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dribbble,
+.instagram {
+  position: absolute;
+  top: 862px;
+  left: 203px;
+  text-decoration: underline;
+  color: var(--color-white);
+  z-index: 2;
+}
+.dribbble {
+  left: 498px;
+}
+.plugin-file-cover-1 {
+  width: 100%;
+  height: 960px;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  display: none;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 767px) {
+  .hotel-website-free-container {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .bank-hotel {
+    font-size: var(--font-size-29xl);
+  }
+  .dribbble,
+  .instagram {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hotel-website-free-container {
+    line-height: 40px;
+  }
+  .bank-hotel,
+  .hotel-website-free-container {
+    font-size: var(--font-size-11xl);
+  }
+  .dribbble,
+  .instagram {
+    font-size: var(--font-size-10xl);
+  }
+}
